@@ -1,0 +1,124 @@
+*{
+    font-family: "Montserrat", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden; 
+    color: white;
+}
+html,
+body{
+    width: 100%;
+    height: 100%;
+}
+.sidebar .nav ul li:hover{
+    opacity: 1;
+    transition: 0.4s;
+    cursor: pointer;
+}
+.library .lib-main .main-l:hover{
+    opacity: 1;
+    transition: 0.4s;
+    cursor: pointer;
+}
+.library .lib-main .main-t .main-r i:hover{
+    opacity: 1;
+    background-color: #6a6a6a1d;   
+    border-radius: 25px; 
+    transition: 0.4s;
+    cursor: pointer;
+}
+.library .lib-main .main-b div:hover{ 
+    background-color: #6a6a6a4d;  
+    transition: 0.4s;
+    cursor: pointer;
+}
+.library .lib-boxes .box button:hover{
+    transform: scale(1.04);
+    transition: 0.2s;
+}  
+.main-content .nav .left-nav button:nth-child(2):hover,
+.main-content .nav .left-nav > i:hover{
+    transform: scale(1.04);
+    transition: 0.2s;
+    cursor: pointer;
+    background-color: #6a6a6a1d;
+    opacity: 1;
+} 
+.main-content .nav .left-nav button:hover{
+    transform: scale(1.04);
+    transition: 0.2s;
+    cursor: pointer;
+    opacity: 1;
+}
+.main-content .nav .right-nav i:hover{
+    transform: scale(1.1);
+    transition: 0.2s;
+    cursor: pointer;
+    background-color: #6a6a6a1d;
+    opacity: 1;
+} 
+.content .cont .top a:hover{
+    border-bottom: 1px solid white;
+    opacity: 1;
+    transition: 0.2s;
+}
+
+.content .cont .cards .card:hover{
+    background-color: rgba(0, 0, 0, 0.396);
+    border-radius: 1rem; cursor: pointer;
+    transition: 0.2s;
+}
+.content .cont .cards .card:hover .play-btn{
+    opacity: 1;
+    top: 56%;
+    transition: 0.2s;
+
+}
+.content .cont .cards .card:hover .play-btn:hover{
+    scale: 1.1;
+}
+.progress-bar {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 100%;
+    height: 8px;
+    background: #535353;
+    border-radius: 5px;
+    overflow: hidden;
+}
+.progress-bar::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 7px;
+    height: 7px;
+    background: #1DB954;
+    border-radius: 50%;
+    cursor: pointer;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.5);
+}
+.progress-bar::-moz-range-thumb {
+    width: 7px;
+    height: 7px;
+    background: #1DB954;
+    border-radius: 50%;
+    cursor: pointer;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.5);
+}
+.progress-bar::-webkit-slider-runnable-track {
+    width: 100%;
+    height: 8px;
+    background: #535353;
+}
+.progress-bar::-moz-range-track {
+    width: 100%;
+    height: 8px;
+    background: #535353;
+}
+.progress-bar::-ms-track {
+    width: 100%;
+    height: 8px;
+    background: #535353;
+    border-color: transparent;
+    color: transparent;
+}
